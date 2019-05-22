@@ -1,12 +1,12 @@
 ---
 title: MDX
-root: '/docs'
-parents: ['Get Started']
+root: /docs
+parents:
+  - Get Started
 ---
-
 import { Input, Button } from 'antd'
 
-# A mix of Markdown, Frontmatter and JSX
+# A mix of Markdown, Frontmatter and JSXTest
 
 <div style={{ display:"grid", gridGap:"10px", maxWidth:"450px" }}>
 
@@ -18,3 +18,5 @@ import { Input, Button } from 'antd'
   <Button type="primary">click me</Button>
 
 </div>
+
+ <Button type="primary">Click twice</Button>
